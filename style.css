@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Arial & Times New Roman;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.container {
+    width: 650px;
+    margin: 0 auto;
+}
+
+.active {
+    color: #be0f34 !important;
+}
+
+header .top-bar {
+    background-color: white;
+    width: 100%;
+    height: 20px;
+    padding: 0 20px;
+}
+
+header .mid-bar {
+    background-color: #be0f34;
+    width: 100%;
+    height: 40px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+header .mid-bar .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+header .menu {
+    height: 35px;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+header .menu .link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s all;
+
+}
+
+header .menu .link:hover {
+    color: #be0f34;
+}
+
+
+.intro {
+    margin-top: 10px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b9ab95;
+    height: 42px;
+    width: 100%;
+}
+
+.intro p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.banner {
+    width: 100%;
+    padding: 0 20px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    background-image: url('img/image\ _intro.png');
+}
+
+.banner .block-text {
+    width: 310px;
+    height: 220px;
+    background-color: white;
+    padding: 20px;
+}
+
+.banner .block-text .title {
+    color: #be0f34;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 38px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.banner .block-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.banner .block-text a {
+    color: #be0f34;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.product {
+    padding: 0 20px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.product .title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.product p {
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.block-product {
+    margin-top: 30px;
+    display: flex;
+}
+
+.block-product .item {
+    width: 203px;
+    height: 500px;
+    position: relative;
+}
+
+.block-product .item .background {
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 0;
+}
+
+.block-product .item h3 {
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    z-index: 1;
+}
+
+.block-product .item .info {
+    width: 100%;
+    height: 270px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+
+
+.block-product .item .info ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.block-product .item .info ul li p {
+    text-align: left;
+
+}
+
+.block-product .item .info ul li button {
+    padding: 5px 25px;
+    border: none;
+    text-align: center;
+    background-color: white;
+    color: #be0f34;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.block-product .item .info img {
+    width: 30px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.energy .info {
+    background-color: #ff6c00;
+}
+
+.energy .item-title {
+    color: #ff6c00;
+}
+
+.repair .info {
+    background-color: #435cc8;
+}
+
+.repair .item-title {
+    color: #435cc8;
+    z-index: 1;
+}
+
+.detox .info {
+    background-color: #3daf2c;
+}
+
+.detox .item-title {
+    color: #3daf2c;
+    z-index: 1;
+}
+
+.text-box {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #be0f34;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.outer-info {
+    text-align: center;
+}
+
+.outer-info strong {
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 10px 0;
+    display: block;
+}
+
+.outer-info p {
+    color: #969696;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
